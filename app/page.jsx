@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header.jsx'
 import 'remixicon/fonts/remixicon.css'
 import Hero from './Hero.jsx'
-import Footer from './footer.jsx'
+import Footer from './Footer.jsx'
 import Skills from './Skills.jsx'
 import AboutMe from './AboutMe.jsx'
 

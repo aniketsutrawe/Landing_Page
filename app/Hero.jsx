@@ -3,7 +3,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='p-10 grid grid-cols-1 leading-snug md:grid-cols-2 items-center mt-[-20px] lg:h-[calc(49%+2rem)] max-md:h-[calc(70%+2rem)] max-sm:h-[calc(70%+2rem)]'>
+    <div className='p-10 grid grid-cols-1 leading-snug md:grid-cols-2 items-center mt-[-20px] lg:h-[calc(75%+2rem)] max-md:h-[calc(90%+2rem)] max-sm:h-[calc(90%+2rem)]'>
 
       <div>
         <h4 className='font-bold  text-[18px] bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600'>Hello, I’m Aniket Sutrawe</h4>
@@ -13,13 +13,13 @@ function Hero() {
         <h1 className='text-orange-500 text-2xl font-semibold mt-3'>Welcome to my Landing Page</h1>
 
         <div className='mt-6 flex gap-7'>
-          <button className='bg-gradient-to-r from-blue-600 to-purple-600  px-3 py-1 text-white pb-2 rounded-full hover:scale-105 transition-all duration-300'>
+          <a href='https://drive.google.com/file/d/1NyQhLqTiEEi9Jp4pndS6GLvnB7RVtThW/view'target='blank' className='p-3 px-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:scale-105 transition-all duration-300'>
             Resume
-          </button>
+          </a>
           
-          <button className=' px-3 text-blue-600 pb-1 rounded-full border-blue-600 border-[1px] border-gradient-to-r from-blue-600 to-purple-600 hover:scale-105 transition-all duration-300'>
+          <a href='#AboutMe' className=' p-3  text-blue-600 rounded-full border-blue-600 border-[2px] hover:scale-105 transition-all duration-300'>
             Read More
-          </button>
+          </a>
         </div>
       
       </div>

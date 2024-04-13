@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div class="relative antialiased">
+        <div class="relative antialiased" >
 
-            <div class="relative h-20 flex flex-col justify-center bg-slate-900 overflow-hidden mt-40">
+            <div class="relative h-20 flex flex-col justify-center bg-slate-900 overflow-hidden" >
                 <div class="w-full mx-auto px-4 md:px-6 py-24">
                     <div class="text-center">
 
